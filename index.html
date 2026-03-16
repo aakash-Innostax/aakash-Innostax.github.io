@@ -1,42 +1,35 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aakash</title>
-
-<style>
-body{
-  margin:0;
-  height:200vh;
-  background:#111;
-}
-
-h1{
-  position:fixed;
-  color:white;
-  font-size:80px;
-  pointer-events:none;
-  transform:translate(-50%, -50%);
-}
-</style>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakash</title>
+  <style>
+    body{
+      margin:0;
+      height:200vh;
+      background:#111;
+    }
+    h1{
+      position:fixed;
+      color:white;
+      font-size:80px;
+      pointer-events:none;
+      transform:translate(-50%, -50%);
+    }
+  </style>
 </head>
 
-<body>
-
-<h1 id="title">AAKASH</h1>
-
-<script>
-const title = document.getElementById("title");
-
-document.addEventListener("mousemove", function(e){
-  title.style.left = e.clientX + "px";
-  title.style.top = e.clientY + "px";
-});
-</script>
-
-</body>
+  <body>
+    <h1 id="title">AAKASH</h1>
+    
+    <script>
+    const title = document.getElementById("title");
+    
+    document.addEventListener("mousemove", function(e){
+      title.style.left = e.clientX + "px";
+      title.style.top = e.clientY + "px";
+    });
+    </script>
+  </body>
 </html>
-```
